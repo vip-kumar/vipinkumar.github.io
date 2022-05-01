@@ -13,18 +13,26 @@ namespace VipinProfile.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Works()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Work Areas in details.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Physical Address, Email and Phone numbers.";
 
             return View();
         }
+
+        public ActionResult Accomplishments()
+        {
+            ViewBag.Message = "List of Accomplishments.";
+
+            return View();
+        }
+        
     }
 }
